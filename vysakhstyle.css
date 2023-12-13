@@ -1,0 +1,288 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        
+}
+
+ body{
+    background-image: url(https://pnghq.com/wp-content/uploads/modern-frame-png-free-images-transparent-background-45668.png);
+    background-repeat: no-repeat;
+    background-size:1500px 3000px;
+    height: 100%;
+    width: 100%;
+} 
+
+ 
+#container{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  /*background-color:linen; */
+
+}
+#logo{
+    margin-top: 280px;
+    width: 290PX;
+    margin-left: 250px; 
+   
+
+}
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 85%;
+    margin-left: 8px;
+    
+}
+
+
+
+.listitem{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.links{
+    text-decoration:none;
+    color: blue;
+    font-weight: bolder;
+}
+
+.links:hover{
+    color: orangered;
+}
+
+.title{
+    margin-left: 17%;
+    margin-top: 6%;
+    
+}
+
+.title_h1{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.title p{
+    font-size: 18px;
+}
+
+#name{
+    color:red;
+}
+
+#download{
+    background-color:black;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#about{
+    margin: 10% 8% 0% 8%;
+}
+
+
+.heading{
+    text-align: center;
+}
+
+.heading h2{
+   text-align: center;
+   font-size: 25px; 
+}
+
+.heading span{
+    color: blue;
+    font-size: 20px;
+}
+
+.about_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: normal;
+
+}
+
+.about_image img{
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+.about_para p{
+    text-align:justify;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.info{
+    margin-top: 1rem;
+}
+
+.info-box{
+    margin-bottom: 1rem;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.info-box span{
+    margin-left: 1rem;
+    color:darkolivegreen;
+    font-weight:600;
+    font-style: italic;
+}
+
+#experience{
+    margin: 4% 8% 0px 8%;
+}
+.experience_container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: normal;
+    /* text-align:justify; */
+    font-size: larger;
+    margin-top: 2rem;
+    
+}
+
+.experience_container span{
+    color: red;
+    font-weight: bolder;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.ex-image img{
+    width: 60%;
+    padding-left: 4rem;
+    object-position: center;
+    
+}
+.ex-text{
+    margin-top: 8rem;
+    margin-left: 100px;
+    text-align: justify; 
+
+}
+
+
+#skill_container{
+    margin: 10% 10% 0px 8%;
+}
+
+.skill_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: normal;
+    
+}
+
+.tech_image img{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 180px;
+        
+}
+
+.skill-text{
+    margin-top: 15rem;
+    text-align: justify;
+    font-size: 20px;
+    font-style:normal;
+    color:black;
+    font-weight:540;
+}
+
+
+#contact{
+    margin: 4% 8% 0px 8%;  
+}
+
+.icon-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+.icon, .up-arrow{
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid black;*/
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center; /*vertically center*/
+    margin: 0px 15px;
+}
+.icon:hover{
+   /*  background-color: orange; */
+    background-image: linear-gradient(to bottom right, yellow, red); /*for gradient of two colors*/
+}
+.icon i{
+    color:black;
+    font-size: 1.7rem;
+}
+
+.icon :hover i{
+    color: white;
+    animation: shake 0.75s; /* for animations*/
+
+}
+
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+footer p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+   
+}
+
+.up-arrow{
+    text-align: end;
+    
+}
+
+.up-arrow{
+    background-image: linear-gradient(to bottom right, yellow, red);
+    margin-top: 35px;
+    float: right; /*float from right*/
+    margin: 10px 20px 50px 0px;   
+
+}
+.up-arrow:hover i{
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
